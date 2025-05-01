@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace with your actual Render DB URL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://myapp_db_er18_user:9u844kb8VabGIjfB11Y2C4nKKO510toZ@dpg-d081f0s9c44c73be2d00-a.oregon-postgres.render.com/myapp_db_er18'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://my_db_haa1_user:s3wHj1tHFRwq0F8YuhjBzLa6O280wxAO@dpg-d09navruibrs73fghjt0-a.oregon-postgres.render.com/my_db_haa1'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
